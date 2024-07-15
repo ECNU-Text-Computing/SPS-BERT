@@ -1,0 +1,29 @@
+{
+  "data_name": "aapr",
+
+  "model_name": "texttransformer",
+  "input_shape": [100],
+  "embed_dim": 128,
+  "hidden_dim": 128,
+  "num_classes": 1,
+  "dropout_rate": 0.2,
+  "learning_rate": 0.001,
+  "num_epochs": 3,
+  "num_encoder": 6,
+  "num_head": 8,
+
+  "batch_size": 128,
+  "criterion_name": "MSELoss",
+  "optimizer_name": "Adam",
+  "gpu": 3,
+
+  "folds": 10,
+  "feature": "norm",
+  "split_rate": 0.7,
+  "clear": 0,
+  "clean": 0,
+  "cover_rate": 1,
+  "min_count": 0,
+
+  "metrics_num":4
+}

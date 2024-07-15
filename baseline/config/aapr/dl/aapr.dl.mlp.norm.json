@@ -1,0 +1,22 @@
+{
+  "data_name": "aapr",
+
+  "model_name": "mlp",
+  "embed_dim": 128,
+  "hidden_dim": 128,
+  "num_classes": 1,
+  "dropout_rate": 0.2,
+  "learning_rate": 0.001,
+  "num_epochs": 3,
+  "batch_size": 128,
+  "criterion_name": "MSELoss",
+  "optimizer_name": "Adam",
+  "gpu": 4,
+
+  "feature": "norm",
+  "split_rate": 0.7,
+  "cover_rate": 1,
+  "min_count": 0,
+
+  "metrics_num": 4
+}
