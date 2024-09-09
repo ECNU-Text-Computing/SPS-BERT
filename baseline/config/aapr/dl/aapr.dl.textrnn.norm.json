@@ -1,0 +1,31 @@
+{
+  "data_name": "aapr",
+
+  "model_name": "textrnn",
+  "input_shape": [100],
+  "embed_dim": 128,
+  "hidden_dim": 128,
+  "num_filters": 128,
+  "filter_sizes": [2, 3, 4],
+  "num_classes": 1,
+  "dropout_rate": 0.2,
+  "gpu": 3,
+  "learning_rate": 0.001,
+  "num_epochs": 3,
+  "batch_size": 128,
+  "num_layers": 2 ,
+  "weights": 0.3,
+  "criterion_name": "MSELoss",
+  "optimizer_name": "Adam",
+
+
+
+  "folds": 10,
+  "feature": "norm",
+  "split_rate": 0.7,
+  "clear": 0,
+  "clean": 0,
+  "cover_rate": 1,
+  "min_count": 0,
+  "metrics_num": 4
+}
